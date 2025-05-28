@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  botly:
+    image: botly_v3:latest
+    dns:
+      - 8.8.8.8
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
