@@ -176,7 +176,7 @@ class BotlyUI:
             session (streamlit.session_state): The session state.
         """
         # title(self.page_title_icon + self.page_title)  # + self.creator,
-        set_page_config(page_title=self.page_title)
+        set_page_config(page_title=self.page_title, page_icon=":robot:")
         markdown(
             """
 
